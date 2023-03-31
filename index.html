@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my web page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+            background-color: rgb(230, 216, 201);
+        }
+        #list{
+            padding-left: 20px;
+        }
+        header{
+            padding:10px;
+            background-color: rgb(100,250,280);
+            text-align: center;
+        }
+        .nav{
+            word-spacing: 10px;
+            font-style: italic;
+            padding: 10px;
+            
+        }
+        #id{
+            margin: 10px;
+            padding: 10px;
+        }
+        img{
+            width: 20vw;
+            height: 40vh;
+        }
+        ul{
+            padding-bottom: 20px;
+        }
+        #last{
+            padding: 10px;
+        }
+        footer{
+            margin-top: 20px;
+            padding: 10px;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header><h1 style="background-color:rgb(100,250,280)"> <bold style="background-color:rgb(100,250,280);">My Website</bold></h1></header>
+    <div class="nav">
+    <nav> <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    </nav>
+    </div>
+    <h1 style="padding:10px;">My favorite Things</h1>
+    <div id="list">
+        <ol>
+            <li>Coffee</li>
+            <img src="/coffe.jpg" alt="Coffee">
+            <ul >
+                <li>Instant Coffee</li>
+                <li>Cappuccino</li>
+                <li>Mocha</li>
+            </ul>
+            <li>Pizza</li>
+            <img src="/pizza.jpg" alt="Pizza">
+            <ul>
+                <li>Margherita Pizza</li>
+                <li>BBQ Chicken Pizza</li>
+                <li>Meat Pizza</li>
+            </ul>
+            <li>Travelling</li>
+            <img src="./travelling.jpg" alt="Travelling">
+            <ul >
+                <li>Bali, Indonesia</li>
+                <li>Ladakh</li>
+                <li>Goa</li>
+        </ol>
+    </div>
+    <div id="last">
+    <p>if anything is of your favorite </p>
+    <input type="text" placeholder="please comment">
+    <button type="submit" style="cursor:pointer ">submit</button>
+    </div>
+
+    <footer>&copy;2023 My website.</footer>
+</body>
+</html>
